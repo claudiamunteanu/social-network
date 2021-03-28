@@ -1,0 +1,12 @@
+.table-row-cell .button {
+    -fx-text-fill: transparent;
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:hover .button {
+    -fx-text-fill: #FFE7D6;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#FF9B54, #FF7F51);
+    -fx-effect: dropshadow(three-pass-box, #FFE7D6, 5, 0.3, 1, 1);
+}

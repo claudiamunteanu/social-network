@@ -1,0 +1,28 @@
+#anchorPane {
+    -fx-background-color: linear-gradient(#610019, #4F000B);
+}
+
+.button {
+    -fx-text-fill: #FFE7D6;
+    -fx-font-size: 16px;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#FF9B54, #FF7F51);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, #FFE7D6, 5, 0.3, 1, 1);
+}
+
+.button:pressed {
+    -fx-effect: dropshadow(three-pass-box, #FFE7D6, 10, 0.6, 0, 0);
+}
+
+.label {
+    -fx-font-size: 22px;
+    -fx-text-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFE7D6;
+    -fx-font-family: "Tahoma";
+    -fx-effect: dropshadow(gaussian, #48000A, 5, 0, 0, 0.5);
+}

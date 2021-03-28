@@ -1,0 +1,153 @@
+#anchorPane {
+    /*-fx-background-color: linear-gradient(#610019, #4F000B);*/
+    -fx-background-color: linear-gradient(#610019, #48000A);
+}
+
+.text-area{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: #FFE7D6;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#FF9B54, #FF7F51);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e06f6f;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: #A0213F;
+    -fx-accent: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.table-view:default {
+    -fx-text-fill: #FFE7D6;
+}
+
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFE7D6;
+}
+
+.table-view .column-header {
+    -fx-background-color: linear-gradient(#A0213F 0%, #CE4257 100%);
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #FFE7D6;
+}
+
+.table-row-cell {
+    -fx-background-color: -fx-table-cell-border-color, #720026;
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFE7D6;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #E4685C;
+    -fx-text-fill: #FFE7D6;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-arrow,
+.table-view *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, #FFE7D6, 5, 0.3, 1, 1);
+}
+
+.button:pressed {
+    -fx-effect: dropshadow(three-pass-box, #FFE7D6, 10, 0.6, 0, 0);
+}
+
+.combo-box-base{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#ED7D61, #E4685C);
+    -fx-text-fill: blue
+}
+
+.combo-box .list-cell:filled:selected .text {
+    -fx-fill: #FFE7D6;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-padding: 4 0 4 5;
+    -fx-background-color: #E4685C;
+}
+
+.combo-box-popup .list-view .list-cell .label{
+    -fx-text-fill: #FFE7D6;
+}
+
+.combo-box .arrow{
+    -fx-background-color:#FFE7D6;
+}
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-text-fill: #FFE7D6 ;
+}
+
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-background-color: #F0947C;
+    -fx-text-fill: #FFFFFF ;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFE7D6;
+    -fx-font-family: "Tahoma";
+    -fx-effect: dropshadow(gaussian, #48000A, 5, 0, 0, 0.5);
+}
+
+.text-field{
+    -fx-font-weight: bold;
+    -fx-font-family: "Tahoma";
+}
+
+
+.tab:selected {
+    -fx-background-color: #CE4257;
+}
+
+.tab {
+    -fx-background-color: #A0213F;
+    -fx-border-radius: 0px;
+}
+
+.tab-label {
+    -fx-text-fill: #FFE7D6;
+}
+
+.tab-pane {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Tahoma";
+}
+
+.tab-pane > *.tab-header-area > *.tab-header-background {
+    -fx-background-color: #610019;
+}
+
